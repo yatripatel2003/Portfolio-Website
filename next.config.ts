@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {withSentryConfig} from "@sentry/nextjs";
 import type { NextConfig } from "next";
 
@@ -82,3 +83,12 @@ disableLogger: true,
 // https://vercel.com/docs/cron-jobs
 automaticVercelMonitors: true,
 });
+=======
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  /* config options here */
+};
+
+export default nextConfig;
+>>>>>>> ced9568 (Initial commit from Create Next App)
