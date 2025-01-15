@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
 import { FloatingNav } from "@/components/ui/FloatingNav";
@@ -8,6 +8,7 @@ import { navItems } from "@/data";
 import Clients from "@/components/Clients";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
+<<<<<<< HEAD
 
 export default function Home() {
   return (
@@ -124,5 +125,22 @@ export default function Home() {
       </footer>
     </div>
 >>>>>>> ced9568 (Initial commit from Create Next App)
+=======
+
+export default function Home() {
+  return (
+    <main className="relative bg-black flex justify-center items-center flex-col  mx-auto sm:px-10 px-5 overflow-clip">
+      <div className="max-w-7xl w-full">
+        {/* Pass FaHome as JSX instead of a function */}
+        <FloatingNav navItems={navItems} icon={<FaHome />} />
+        <Hero />
+        <Grid />
+        <RecentProjects />
+        <Clients />
+        <Experience />
+        <Footer/>
+      </div>
+    </main>
+>>>>>>> 0ed5cf9 (commit)
   );
 }
